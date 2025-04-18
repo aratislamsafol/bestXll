@@ -9,7 +9,6 @@ const useIsMobile = () => {
     };
     window.addEventListener('resize', handleResize);
 
-    // Initial check
     handleResize();
 
     return () => window.removeEventListener('resize', handleResize);

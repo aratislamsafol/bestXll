@@ -1,0 +1,123 @@
+[
+    {
+      "name": "Virat Kohli",
+      "country": "India",
+      "role": "Batsman",
+      "battingStyle": "Right Handed Bat",
+      "rating": 92,
+      "price": "$1.8M",
+      "img": "https://i.ibb.co.com/TDJFBPg9/download.jpg",
+      "flag": "https://flagcdn.com/w320/in.png"
+    },
+    {
+      "name": "Babar Azam",
+      "country": "Pakistan",
+      "role": "Batsman",
+      "battingStyle": "Right Handed Bat",
+      "rating": 89,
+      "price": "$1.5M",
+      "img": "https://i.ibb.co.com/FLH5MVyX/babar.jpg",
+      "flag": "https://flagcdn.com/w320/pk.png"
+    },
+    {
+      "name": "Steve Smith",
+      "country": "Australia",
+      "role": "Batsman",
+      "battingStyle": "Right Handed Bat",
+      "rating": 88,
+      "price": "$1.6M",
+      "img": "https://i.ibb.co.com/Tqn7vYhv/steve.jpg",
+      "flag": "https://flagcdn.com/w320/au.png"
+    },
+    {
+      "name": "Jos Buttler",
+      "country": "England",
+      "role": "Wicketkeeper Batsman",
+      "battingStyle": "Right Handed Bat",
+      "rating": 85,
+      "price": "$1.4M",
+      "img": "https://i.ibb.co.com/kVk5Y3C6/butler.jpg",
+      "flag": "https://flagcdn.com/w320/gb.png"
+    },
+    {
+      "name": "Shaheen Afridi",
+      "country": "Pakistan",
+      "role": "Bowler",
+      "battingStyle": "Left Handed Bat",
+      "rating": 84,
+      "price": "$1.3M",
+      "img": "https://i.ibb.co.com/bg7qtFWq/Shaheen-Afridi-2.jpg",
+      "flag": "https://flagcdn.com/w320/pk.png"
+    },
+    {
+      "name": "Rashid Khan",
+      "country": "Afghanistan",
+      "role": "Bowler",
+      "battingStyle": "Right Handed Bat",
+      "rating": 87,
+      "price": "$1.2M",
+      "img": "https://i.ibb.co.com/4gwFGSJs/rashid.jpg",
+      "flag": "https://flagcdn.com/w320/af.png"
+    },
+    {
+      "name": "Ben Stokes",
+      "country": "England",
+      "role": "All-Rounder",
+      "battingStyle": "Left Handed Bat",
+      "rating": 86,
+      "price": "$1.9M",
+      "img": "https://i.ibb.co.com/mCSmgL2Z/ben.jpg",
+      "flag": "https://flagcdn.com/w320/gb.png"
+    },
+    {
+      "name": "Shakib Al Hasan",
+      "country": "Bangladesh",
+      "role": "All-Rounder",
+      "battingStyle": "Left Handed Bat",
+      "rating": 90,
+      "price": "$1.5M",
+      "img": "https://i.ibb.co.com/PZZM7977/ca1e31c425647444b30b998b62c415a035fbd3a96784a347.jpg",
+      "flag": "https://flagcdn.com/w320/bd.png"
+    },
+    {
+      "name": "Kane Williamson",
+      "country": "New Zealand",
+      "role": "Batsman",
+      "battingStyle": "Right Handed Bat",
+      "rating": 88,
+      "price": "$1.7M",
+      "img": "https://i.ibb.co/42D7svm/kane.png",
+      "flag": "https://flagcdn.com/w320/nz.png"
+    },
+    {
+      "name": "David Warner",
+      "country": "Australia",
+      "role": "Batsman",
+      "battingStyle": "Left Handed Bat",
+      "rating": 83,
+      "price": "$1.4M",
+      "img": "https://i.ibb.co/m6J1TrD/warner.png",
+      "flag": "https://flagcdn.com/w320/au.png"
+    },
+    {
+      "name": "Hardik Pandya",
+      "country": "India",
+      "role": "All-Rounder",
+      "battingStyle": "Right Handed Bat",
+      "rating": 82,
+      "price": "$1.2M",
+      "img": "https://i.ibb.co.com/zTmypyQX/CRICKET-IND-IPL-T20-RAJASTHAN-MUMBAI-39-1713852178980-1742487801654.jpg",
+      "flag": "https://flagcdn.com/w320/in.png"
+    },
+    {
+      "name": "Trent Boult",
+      "country": "New Zealand",
+      "role": "Bowler",
+      "battingStyle": "Right Handed Bat",
+      "rating": 85,
+      "price": "$1.3M",
+      "img": "https://i.ibb.co.com/1tckHJR3/Trent-Boult.jpg",
+      "flag": "https://flagcdn.com/w320/nz.png"
+    }
+  ]
+  
