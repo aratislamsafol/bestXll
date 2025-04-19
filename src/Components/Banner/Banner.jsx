@@ -2,6 +2,8 @@ import React from 'react';
 import bannerImg from '../../assets/images/banner-main.png';
 import backgroundImg from '../../assets/images/bg-shadow.png'
 import Button from '../Utils/Button';
+import Img from '../Utils/Img';
+import PropTypes from 'prop-types';
 
 
 function Banner({handleClick}) {
@@ -18,13 +20,13 @@ function Banner({handleClick}) {
     backgroundColor: '#E7FE29',
     color: '#131A20',
     border: '1px solid #E7FE29',
-    borderRounded: '8px',
+    borderRadius: '8px',
   }
   return (
     <div className="text-center mt-4 py-10 rounded-2xl px-2" style={bgStyle}>
       {/* image section */}
       <div className='flex justify-center items-center'>
-          <img src={bannerImg} className='w-4/10 md:w-2/10' alt="banner image" />
+          <Img getImg={bannerImg} classd='w-[40%] md:w-2/10' alt="banner image" />
       </div>
       {/* text section */}
       <div className='mt-4 md:mt-5 lg:mt-6'>
@@ -37,8 +39,10 @@ function Banner({handleClick}) {
      
     </div>
   )
-}
-
+};
+Banner.propTypes = {
+  handleClick: PropTypes.func,
+};
 
 export default Banner
 
