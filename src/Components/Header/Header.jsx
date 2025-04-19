@@ -20,7 +20,6 @@ const Header = ({amounts}) => {
           setIsActive(prev => !prev);
         }
     };
-    const design = {};
     const btnDesign = {
         border: '1px solid #ececec',
         whiteSpace: 'nowrap'
@@ -32,7 +31,7 @@ const Header = ({amounts}) => {
     <div className='flex justify-between items-center mt-3 sm:mt-4 md:mt:8 lg:mt-12 flex-wrap md:flex-nowrap'>
         {/* logo section */}
         <div className='w-1/2 md:order-1'>
-            <Img getImg={ logo } imgDesign={imgDesign}></Img>
+            <Img getImg={ logo } classd="w-12 md:w-18" imgDesign={imgDesign}></Img>
         </div>
         {/* button */}
         <div className='w-1/2 md:w-fit md:ms-8 md:order-3 flex gap-2 items-center justify-end'>
@@ -41,7 +40,7 @@ const Header = ({amounts}) => {
         </div>
         {/* menu */}
         <div className='w-full md:order-2 md:justify-items-end mt-3 md:mt-0'>
-            {isActive && <Menu isActive={isActive} design={design}></Menu>}
+            {isActive && <Menu isActive={isActive} className="flex flex-col md:flex-row md:gap-8"></Menu>}
         </div>
     </div>
   )

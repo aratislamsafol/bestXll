@@ -2,7 +2,7 @@ import { useState } from "react";
 import PlayerSection from "../PlayerSection/PlayerSection";
 import SecelectedPlayer from '../SecelectedPlayer/SecelectedPlayer';
 
-export default function Main({loadData, handleSelected, selected}) {
+export default function Main({loadData, handleSelected, removeSelected, selected}) {
     const [activeTab, setActiveTab] = useState('tab1');
 
     const handleTabChange = (tabId) => {
@@ -10,7 +10,7 @@ export default function Main({loadData, handleSelected, selected}) {
     };
 
     return (
-        <div>
+        <div className="pb-60 sm:pb-50 md:pb-60 lg:pb-65 xl:pb-70">
             {/* heading */}
             <div className="flex justify-between items-center mt-8 sm:mt-12 md:mt-16 lg:mt-20 xl:mt-22">
                 <h2 className="font-bold text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">Available Players</h2>
@@ -26,7 +26,7 @@ export default function Main({loadData, handleSelected, selected}) {
                 </div>
             </div>
 
-            {activeTab === 'tab1' ? <PlayerSection loadData={loadData} handleSelected={handleSelected}></PlayerSection> :<SecelectedPlayer handleTabChange={handleTabChange} selected={selected}/>}
+            {activeTab === 'tab1' ? <PlayerSection loadData={loadData} handleSelected={handleSelected}></PlayerSection> :<SecelectedPlayer removeSelected={removeSelected} handleTabChange={handleTabChange} selected={selected}/>}
         </div>
     )
 }

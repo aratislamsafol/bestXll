@@ -1,3 +1,3 @@
-export default function Img({getImg, imgDesign}) {
-  return <img src={getImg} className="w-12 md:w-18" style={imgDesign} alt="images" />
+export default function Img({getImg, imgDesign, classd}) {
+  return <img src={getImg} className={classd} style={imgDesign} alt="images" />
 }

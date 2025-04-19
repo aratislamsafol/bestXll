@@ -4,6 +4,8 @@ import Banner from "./Components/Banner/Banner";
 import Main from "./Components/Main/Main";
 import { ToastContainer, toast } from 'react-toastify';
 import AmountCalculate from "./Components/Utils/AmountCalculate";
+import Newslater from './Components/Newslater/Newslater';
+import Footer from './Components/Footer/Footer';
 function App() {
   const [amounts, setAmount] = useState(0);
   const [loadData, setLoadData] = useState([]);
@@ -37,13 +39,20 @@ function App() {
     return true;
   };
   
+  const removeSelected = (selecData) => {
+    const newData = selected.filter(select => select.id !== selecData.id)
+    setSelected(newData);
+  }
 
   return (
-    <div className="regular-font max-w-[1320px] mx-auto px-2 sm:px-3 md:px-5 lg:px-6">
+    <div className="regular-font">
+     <div className = "max-w-[1320px] mx-auto px-2 sm:px-3 md:px-5 lg:px-6">
       <ToastContainer />
-      <Header amounts = {amounts}></Header>
-      <Banner handleClick={handleClick}></Banner>
-      <Main loadData={loadData} handleSelected={handleSelected} selected={selected}></Main>
+        <Header amounts = {amounts}></Header>
+        <Banner handleClick={handleClick}></Banner>
+        <Main loadData={loadData} handleSelected={handleSelected} removeSelected={removeSelected} selected={selected}></Main>
+     </div>
+      <Footer></Footer>
     </div>
   )
 }

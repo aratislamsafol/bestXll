@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import SelectedPlayerShow from './SelectedPlayerShow';
 import Button from '../Utils/Button'; 
 
-function SecelectedPlayer({selected, handleTabChange}) {
+function SecelectedPlayer({selected, handleTabChange, removeSelected}) {
     const btnDesign = {
         backgroundColor: '#E7FE29',
         color: '#131A20',
@@ -14,10 +14,9 @@ function SecelectedPlayer({selected, handleTabChange}) {
     <>
         <div className='flex flex-col gap-2 md:gap-3 lg:gap-4 mt-4 sm:mt-5 md:mt-6 lg:mt-7 xl:mt-8'>
             {
-                selected.map(select => <SelectedPlayerShow select={select}/>)
+                selected.map(select => <SelectedPlayerShow select={select} removeSelected={removeSelected}/>)
             }
         </div>
-        {/* handleClick={handleClick} */}
         <div className='border border-[#131313] w-fit p-1 md:p-2 rounded-xl mt-3 md:mt-4'>
             <Button btnDesign={btnDesign} handleClick={()=>handleTabChange('tab1')}> Add More Players </Button>
         </div>
