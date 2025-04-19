@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import bannerImg from '../../assets/images/banner-main.png';
 import backgroundImg from '../../assets/images/bg-shadow.png'
 import Button from '../Utils/Button';
@@ -40,9 +39,6 @@ function Banner({handleClick}) {
   )
 }
 
-Banner.propTypes = {
-    
-}
 
 export default Banner
 

@@ -15,8 +15,9 @@ function App() {
         .then(response => response.json())
         .then(data => setLoadData(data))
 },[]);
-  console.log(amounts);
+
   const handleClick = () => {
+    toast.success('Money Added');
     setAmount(amounts + 500000);
   }
 
