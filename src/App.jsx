@@ -5,6 +5,7 @@ import Main from "./Components/Main/Main";
 import { ToastContainer, toast } from 'react-toastify';
 import AmountCalculate from "./Components/Utils/AmountCalculate";
 import Footer from './Components/Footer/Footer';
+
 function App() {
   const [amounts, setAmount] = useState(0);
   const [loadData, setLoadData] = useState([]);
@@ -35,6 +36,7 @@ function App() {
     setSelected([...selected, selecData]);
     setAmount(amounts - AmountCalculate(selecData.price));
     toast.success('Added Successfully');
+
     newLoadData(selecData);
     return true;
   };
