@@ -14,7 +14,7 @@ function SecelectedPlayer({selected, handleTabChange, removeSelected}) {
     <>
         <div className='flex flex-col gap-2 md:gap-3 lg:gap-4 mt-4 sm:mt-5 md:mt-6 lg:mt-7 xl:mt-8'>
             {
-                selected.map(select => <SelectedPlayerShow select={select} removeSelected={removeSelected}/>)
+                selected.map((select, index) => <SelectedPlayerShow key={index} select={select} removeSelected={removeSelected}/>)
             }
         </div>
         <div className='border border-[#131313] w-fit p-1 md:p-2 rounded-xl mt-3 md:mt-4'>

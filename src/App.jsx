@@ -4,7 +4,6 @@ import Banner from "./Components/Banner/Banner";
 import Main from "./Components/Main/Main";
 import { ToastContainer, toast } from 'react-toastify';
 import AmountCalculate from "./Components/Utils/AmountCalculate";
-import Newslater from './Components/Newslater/Newslater';
 import Footer from './Components/Footer/Footer';
 function App() {
   const [amounts, setAmount] = useState(0);
