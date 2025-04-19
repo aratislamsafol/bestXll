@@ -1,6 +1,6 @@
 export default function Newslater() {
   return (
-    <section className="dark:bg-gray-900 w-4/5 mx-auto border-2 border-white rounded-3xl bg-white/15 ">
+    <section className="max-w-[1200px] mx-auto dark:bg-gray-900 w-4/5 border-2 border-white rounded-3xl bg-white/15 ">
         <div className="p-4 sm:p-5 md:p-6 ">
             <div className="text-center p-4 border border-white rounded-2xl bgImg py-10 sm:py-12 md:py-16 lg:py-18 xl:py-22 bg-lime-50">
                 <h2 className="mb-4 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl dark:text-white">Subscribe to our Newsletter</h2>

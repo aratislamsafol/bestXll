@@ -15,7 +15,7 @@ export default function Footer() {
             <FooterContent></FooterContent>
         </div>
         <Copywrite />
-        <div className='absolute bottom-145 md:bottom-98 lg:bottom-116 w-full'>
+        <div className='absolute bottom-185 md:bottom-130 lg:bottom-138 w-full'>
             <Newslater/>
         </div>
     </div>
